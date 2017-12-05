@@ -1,0 +1,17 @@
+.ahp-container{
+    min-height: 380px;
+    min-width: 570px;
+    height: calc(100% - 50px);
+    width: calc(100% - 50px);
+    padding: 10px;
+}
+
+    .calculate{
+        border-radius: 15px;
+        border: none;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+        text-align: center;
+        height: 40px;
+        width: 96px;
+        margin-left: 236px;
+    }

@@ -1,0 +1,63 @@
+.ahp-level-three{
+    border-radius: 15px;
+    width: 562px;
+    height: 175px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.ahp-level-three-name-lavel{
+    border-radius: 15px 15px 0 0;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+    background-color: #efecf0;
+
+}
+
+    .ahp-level-three_card{
+        display: inline-flex;
+        float: left;
+    }
+
+    .ahp-level-three_card_of_global_alt{
+        border-radius: 15px;
+        background-color: #efecf0;
+        height: 68px;
+        width: 168px;
+        margin-left: 40px;
+        margin-top: 25px;
+    }
+
+
+    .ahp-level-three_card_of_global_alt-name{
+        width: 140px;
+        margin-top: 20px;
+    }
+    .ahp-level-three_card_of_global_alt-name, .ahp-level-three_card_of_global_alt-sum{
+        text-align: center;
+        border: none;
+        background: transparent;
+        margin-bottom: 10px;
+    }
+
+.ahp-level-three_add_item{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: x-large;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.ahp-level-three_card_of_global_alt-number{
+        margin-top: 20px;
+        margin-left: 6px;
+        width: 22px;
+        height: 20px;
+        float: left;
+    }

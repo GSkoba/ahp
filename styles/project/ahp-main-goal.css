@@ -1,0 +1,39 @@
+.ahp-main-goal{
+    background-color: #efecf0;
+    height: 78px;
+    width: 212px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    margin-bottom: 20px;
+    margin-left: 174px;
+}
+.ahp-main-goal:before {
+    content: '';
+    display: block;
+    clear: both;
+}
+.ahp-main-goal:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+    .ahp-main-goal-name{
+        width: 212px;
+        text-align: center;
+        margin-top: 20px;
+        border: none;
+        background-color: transparent;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 200;
+    }
+
+        .ahp-main-goal-name::placeholder{
+            color:darkgrey;
+        }
+
+    .ahp-main-goal-weight{
+        text-align: center;
+    }
+
