@@ -22,11 +22,14 @@
     font-size: 18px;
     padding-top: 15px;
     background-color: #efecf0;
-
+    margin-bottom: 20px;
 }
 
     .ahp-level-three_card{
         float: left;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
     }
 
     .ahp-level-three_card_of_global_alt{
@@ -35,7 +38,9 @@
         height: 68px;
         width: 168px;
         margin-left: 40px;
-        margin-top: 25px;
+        margin-bottom: 20px;
+        float: left;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
     }
 
 
@@ -55,8 +60,8 @@
     width: 40px;
     border-radius: 40px;
     border: none;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-left: 268px;
+    margin-bottom: 20px;
     font-size: x-large;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
 }
