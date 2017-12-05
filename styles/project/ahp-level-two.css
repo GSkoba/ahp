@@ -1,7 +1,5 @@
 .ahp-level-two{
     border-radius: 15px;
-    width: 562px;
-    height: 310px;
     background-color: #ffffff;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
@@ -24,6 +22,7 @@
         font-size: 18px;
         padding-top: 15px;
         background-color: #efecf0;
+        margin-bottom: 20px;
     }
 
     .ahp-level-two_card_criteria{
@@ -34,7 +33,7 @@
         }
 
     .ahp-level-two_card{
-        margin-top: 20px;
+        margin-bottom: 20px;
         margin-left: 40px;
         background-color: #efecf0;
         height: 196px;
@@ -56,10 +55,27 @@
         display: inline-flex;
     }
 
+    .ahp-level-two_card_local_priorities{
+        width: auto;
+        height: auto;
+    }
+
     .ahp-level-two_card_local_priorities-number{
+        margin-left: 6px;
         width: 22px;
         height: 20px;
     }
+
+.ahp-level-two_card_local_priorities:before{
+    content: '';
+    display: block;
+    clear: both;
+}
+.ahp-level-two_card_local_priorities:after{
+    content: '';
+    display: block;
+    clear: both;
+}
 
     .ahp-level-two_card_local_priorities-number:after{
         content: '';
@@ -67,7 +83,7 @@
         clear: both;
     }
     .ahp-level-two_card_local_priorities-weight{
-        width: 146px;
+        width: 140px;
     }
 
     .ahp-level-two_add_item{
@@ -76,7 +92,7 @@
         border-radius: 40px;
         border: none;
         margin-top: 98px;
-        margin-left: 40px;
+        margin-left: 60px;
         font-size: x-large;
         box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
     }
@@ -85,3 +101,6 @@
         color: #b5bbc3;
     }
 
+.ahp-level-two_card_local_priorities{
+    float: left;
+}
