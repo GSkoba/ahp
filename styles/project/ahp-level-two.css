@@ -59,6 +59,11 @@
     }
     .ahp-level-two_card_local_priorities-element{
         display: block;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .ahp-level-two_card_local_priorities-element:first-child{
+        border-top: 1px solid #e6e6e6;
     }
 
     .ahp-level-two_card_local_priorities{
@@ -71,6 +76,7 @@
         width: 22px;
         height: 20px;
         float: left;
+        margin-top: 10px;
     }
 
 .ahp-level-two_card_local_priorities:before{
@@ -91,6 +97,7 @@
     }
     .ahp-level-two_card_local_priorities-weight{
         width: 140px;
+        margin-top: 10px;
     }
 
     .ahp-level-two_add_item{

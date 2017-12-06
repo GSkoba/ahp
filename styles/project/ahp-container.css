@@ -16,3 +16,7 @@
         margin-left: 236px;
         background-color: #efecf0;
     }
+
+    .calculate:active{
+        color: #b5bbc3;
+    }

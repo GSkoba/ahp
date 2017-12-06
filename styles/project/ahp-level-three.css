@@ -54,6 +54,10 @@
         background: transparent;
         margin-bottom: 10px;
     }
+.ahp-level-three_card_of_global_alt-sum{
+    border-bottom: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+}
 
 .ahp-level-three_add_item{
     height: 40px;
@@ -65,7 +69,9 @@
     font-size: x-large;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
 }
-
+.ahp-level-three_add_item:active{
+    color: #b5bbc3;
+}
 .ahp-level-three_card_of_global_alt-number{
         margin-top: 20px;
         margin-left: 6px;
@@ -83,4 +89,8 @@
     margin-left: 74px;
     margin-bottom: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.remote-level-three:active{
+    color: #b5bbc3;
 }
