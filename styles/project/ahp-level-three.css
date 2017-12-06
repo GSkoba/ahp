@@ -35,7 +35,7 @@
     .ahp-level-three_card_of_global_alt{
         border-radius: 15px;
         background-color: #efecf0;
-        height: 68px;
+        height: 100%;
         width: 168px;
         margin-left: 40px;
         margin-bottom: 20px;
@@ -73,3 +73,14 @@
         height: 20px;
         float: left;
     }
+
+.remote-level-three{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: small;
+    margin-left: 74px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}

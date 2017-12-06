@@ -111,3 +111,20 @@
 .ahp-level-two_card_local_priorities{
     float: left;
 }
+
+
+.remote-level-two{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: small;
+    margin-left: 74px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.remote-level-two:active{
+    color: #b5bbc3;
+}
