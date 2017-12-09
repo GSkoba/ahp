@@ -1,0 +1,32 @@
+.ahp-evaluation_of_criteria{
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.ahp-level-criteria-name-lavel{
+    border-radius: 15px 15px 0 0;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+    background-color: #efecf0;
+    margin-bottom: 20px;
+}
+
+.ahp-evaluation_of_criteria-level_one,
+.ahp-evaluation_of_criteria-level_two,
+.ahp-evaluation_of_criteria-level_three,
+.ahp-evaluation_of_criteria-level_four,
+.ahp-evaluation_of_criteria-level_five,
+.ahp-evaluation_of_criteria-level_six,
+.ahp-evaluation_of_criteria-level_seven,
+.ahp-evaluation_of_criteria-level_eugth,
+.ahp-evaluation_of_criteria-level_nine {
+    width: 60px;
+    height: 100%;
+    display: inline-block;
+    border-right: 1px solid black;
+    float: left;
+}
