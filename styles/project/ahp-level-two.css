@@ -8,6 +8,10 @@
 }
 .list{
     display: inline-block;
+    margin-left: 18px;
+}
+.list2{
+    display: inline-block;
     margin-left: 60px;
 }
 .ahp-level-two:before {
@@ -43,7 +47,7 @@
         margin-left: 40px;
         background-color: #efecf0;
         height: 100%;
-        width: 168px;
+        width: 460px;
         border-radius: 15px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
         float: left;
@@ -55,7 +59,7 @@
         border: none;
         background: transparent;
         margin-bottom: 10px;
-        width: 168px;
+        width: 100%;
     }
     .ahp-level-two_card_local_priorities-element{
         display: block;
@@ -96,9 +100,11 @@
         clear: both;
     }
     .ahp-level-two_card_local_priorities-weight{
-        width: 140px;
+        width: 430px;
         margin-top: 10px;
+        text-align: center;
     }
+
 
     .ahp-level-two_add_item{
         height: 40px;
@@ -116,6 +122,7 @@
     }
 
 .ahp-level-two_card_local_priorities{
+    width: 100%;
     float: left;
 }
 
@@ -126,7 +133,7 @@
     border-radius: 20px;
     border: none;
     font-size: small;
-    margin-left: 74px;
+    margin-left: 218px;
     margin-top: 10px;
     margin-bottom: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
